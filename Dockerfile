@@ -12,6 +12,6 @@ RUN chmod +x scripts/entrypoint.sh
 
 RUN ls -l /app/scripts
 
-ENTRYPOINT [ "scripts/entrypoint.sh" ]
+ENTRYPOINT [ "/app/scripts/entrypoint.sh" ]
 
 CMD [ "python", "app.py" ]
