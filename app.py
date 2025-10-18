@@ -5,7 +5,7 @@ from flask_cors import CORS
 from WWP.interface import bp as WWP_bp
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://wwp.20age1million.com"])
 
 # interfaces of WWP
 app.register_blueprint(WWP_bp)      
