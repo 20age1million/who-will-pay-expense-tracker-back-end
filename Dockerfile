@@ -3,6 +3,8 @@ WORKDIR /app
 
 COPY . /app
 
+RUN ls -l /app/scripts
+
 ENV VIRTUAL_ENV=/app/.venv
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
