@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 # 可选：打印一些信息 / 环境变量
 echo "ENTRYPOINT: starting with arguments: $@"
