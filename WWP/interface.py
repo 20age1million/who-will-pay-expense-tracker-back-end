@@ -13,7 +13,7 @@
 
 from flask import Blueprint, request, jsonify
 from WWP.opData import opData
-bp = Blueprint("WWP", __name__, url_prefix="")
+bp = Blueprint("WWP", __name__, url_prefix="/api")
 
 #return a json file that contain: persons with their spending data
 @bp.route("/getDisplayData", methods = ["GET"])
