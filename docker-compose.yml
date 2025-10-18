@@ -15,6 +15,8 @@ services:
     volumes:
       - WWP_data:/app/WWP/data
 
+    ports:
+      - "3006:5100"   # 主机端口:容器端口
     # 日志滚动，避免 json-file 无限膨胀（也可在 daemon.json 里全局配置）
     # 参考：json-file logging driver 配置
     logging:

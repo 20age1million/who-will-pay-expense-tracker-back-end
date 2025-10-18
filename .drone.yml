@@ -97,21 +97,7 @@ steps:
       GHCR_USERNAME:
         from_secret: GHCR_USERNAME
       GHCR_TOKEN:
-        from_secret: GHCR_TOKEN
-
-      # tokens specific for the bot
-      GITHUB_TOKEN:
-        from_secret: GITHUB_TOKEN
-      GITHUB_ORG:
-        from_secret: GITHUB_ORG
-      DISCORD_TOKEN:
-        from_secret: DISCORD_TOKEN
-      DISCORD_CLIENT_ID:
-        from_secret: DISCORD_CLIENT_ID
-      DISCORD_GUILD_ID:
-        from_secret: DISCORD_GUILD_ID
-      ROOT:
-        from_secret: ROOT
+        from_secret: GHCR_TOKEN 
 
       TAG: "latest"            # CHANGE to "${DRONE_COMMIT_SHA}" for pinned deploys
       COMPOSE_SUBDIR: ""       # CHANGE if your compose lives in a subfolder (e.g., "deploy")

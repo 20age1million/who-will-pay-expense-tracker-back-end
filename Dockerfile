@@ -8,6 +8,8 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 EXPOSE 5100
 
-ENTRYPOINT [ "./scripts/entrypoint.sh" ]
+RUN chmod +x scripts/entrypoint.sh
+
+ENTRYPOINT [ "scripts/entrypoint.sh" ]
 
 CMD [ "python", "app.py" ]
