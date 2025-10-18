@@ -10,8 +10,9 @@ EXPOSE 5100
 
 RUN chmod +x scripts/entrypoint.sh
 
-RUN ls -l /app/scripts
+RUN ls -l /app/scripts/entrypoint.sh
 RUN which sh
+
 
 ENTRYPOINT [ "/app/scripts/entrypoint.sh" ]
 
