@@ -1,0 +1,25 @@
+# 依赖与产物
+node_modules
+dist
+coverage
+
+# VCS / 编辑器
+.git
+.gitignore
+.vscode
+.idea
+
+# 本地环境/缓存
+.env
+*.log
+npm-debug.log*
+.DS_Store
+
+# Docker 自身
+Dockerfile
+docker-compose.yml
+
+# SB MAC
+.DE_STORE
+
+.venv
