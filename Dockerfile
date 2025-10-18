@@ -3,14 +3,14 @@ WORKDIR /app
 
 COPY . /app
 
-RUN ls -l /app/scripts
-
 ENV VIRTUAL_ENV=/app/.venv
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 EXPOSE 5100
 
 RUN chmod +x scripts/entrypoint.sh
+
+RUN ls -l /app/scripts
 
 ENTRYPOINT [ "scripts/entrypoint.sh" ]
 
