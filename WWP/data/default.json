@@ -1,6 +1,6 @@
 [
     {
-        "name": "Alice",
+        "name": "Aaron",
         "records": [
             {
                 "amount": 38,
@@ -45,15 +45,11 @@
             {
                 "amount": 49.2,
                 "time": "2025-04-13"
-            },
-            {
-                "amount": 676.0,
-                "time": "2025-08-12"
             }
         ]
     },
     {
-        "name": "Bob",
+        "name": "Benson",
         "records": [
             {
                 "amount": 53.06,
@@ -102,7 +98,7 @@
         ]
     },
     {
-        "name": "Charles",
+        "name": "Simon",
         "records": [
             {
                 "amount": 38.96,
@@ -151,10 +147,6 @@
             {
                 "amount": 83.0,
                 "time": "2025-04-06"
-            },
-            {
-                "amount": 0.5,
-                "time": "2025-06-16"
             }
         ]
     }
